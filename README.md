@@ -151,14 +151,14 @@ dymd keys add <cüzdanİsmi>
 dymd tx staking create-validator \
 --amount 1000000udym \
 --pubkey $(dymd tendermint show-validator) \
---moniker "Validatörİsmi" \
+--moniker "lennymyboah" \
 --details "" \
 --chain-id froopyland_100-1 \
 --commission-rate 0.05 \
 --commission-max-rate 0.20 \
 --commission-max-change-rate 0.01 \
 --min-self-delegation 1 \
---from rues \
+--from lenny \
 --gas-adjustment 1.4 \
 --gas auto \
 --gas-prices 0.025udym \
